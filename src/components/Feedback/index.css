@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .image {
+    height: 12vh;
+    width: 75%;
+  }
+  .para {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #1e293b;
+  }
+}
+@media (min-width: 576px) {
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .image {
+    height: 7vh;
+    width: 80%;
+  }
+  .para {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+
+    color: #1e293b;
+  }
+}
